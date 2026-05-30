@@ -41,6 +41,8 @@ Hệ thống này cung cấp một phương pháp tiếp cận hiện đại và
 ---
 
 ## 🗺️ Documentation Mapping / Sơ đồ Tài liệu chi tiết
+
+### [English]
 To maintain readability, detailed mathematical formulations, theoretical justifications, and business rules are organized inside the [docs/](docs) directory. Click the links below to access specific document chapters:
 
 *   **System Overview & Pipeline Steps:** Read [tong_quan_he_thong_va_dinh_muc_tin_dung.md](docs/3_tong_quan_va_dinh_vi/tong_quan_he_thong_va_dinh_muc_tin_dung.md) for a full overview of the 7-step pipeline.
@@ -51,6 +53,18 @@ To maintain readability, detailed mathematical formulations, theoretical justifi
 *   **Case Studies:**
     *   **Novaland (NVL) Bankruptcy Risk & Real Estate Adjustment:** [bao_cao_phan_tich_nvl.md](docs/1_phan_tich_pha_san/1_2_bao_cao_va_case_study/bao_cao_phan_tich_nvl.md) & [giai_phap_va_du_bao_nvl.md](docs/1_phan_tich_pha_san/1_2_bao_cao_va_case_study/giai_phap_va_du_bao_nvl.md).
     *   **Nam Viet Corp (ANV) Cash Flow & Annuity Amortization Plan:** [dien_giai_cham_diem_dong_tien_anv.md](docs/2_han_muc_tin_dung/2_1_cham_diem_dong_tien/dien_giai_cham_diem_dong_tien_anv.md) & [dien_giai_han_muc_va_tra_no_anv.md](docs/2_han_muc_tin_dung/2_2_tham_dinh_va_dinh_muc/dien_giai_han_muc_va_tra_no_anv.md).
+
+### [Tiếng Việt]
+Để duy trì tính dễ đọc, các công thức toán học chi tiết, lập luận lý thuyết và quy tắc nghiệp vụ được tổ chức bên trong thư mục [docs/](docs). Nhấp vào các liên kết bên dưới để truy cập các chương tài liệu cụ thể:
+
+*   **Tổng quan Hệ thống & Các bước Quy trình:** Đọc [tong_quan_he_thong_va_dinh_muc_tin_dung.md](docs/3_tong_quan_va_dinh_vi/tong_quan_he_thong_va_dinh_muc_tin_dung.md) để có cái nhìn toàn diện về quy trình 7 bước.
+*   **Phương pháp luận Khoa học & Tổng quan Nghiên cứu:** Tìm hiểu về nền tảng toán học của Altman Z'', Ohlson O-Score, Zmijewski, và Sloan Accruals tại [phuong_phap_luan_he_thong.md](docs/3_tong_quan_va_dinh_vi/phuong_phap_luan_he_thong.md).
+*   **Lý thuyết Phá sản & Logic XGBoost:** Đọc [ly_thuyet_du_bao_pha_san.md](docs/1_phan_tich_pha_san/1_1_ly_thuyet_va_phuong_phap_luan/ly_thuyet_du_bao_pha_san.md) và [WHITEPAPER.md](docs/3_tong_quan_va_dinh_vi/WHITEPAPER.md).
+*   **Thẩm định Thích ứng & Công thức Xác định Hạn mức:** Chi tiết tính toán hạn mức tín dụng, phạt DSCR mục tiêu và logic Trần đòn bẩy được giải thích trong [tham_dinh_han_muc_va_danh_gia.md](docs/2_han_muc_tin_dung/2_2_tham_dinh_va_dinh_muc/tham_dinh_han_muc_va_danh_gia.md).
+*   **Hiệu chuẩn Bảng điểm Dòng tiền:** Đọc thiết kế bảng điểm Weight of Evidence (WOE) trong [cash_flow_scoring_methodology.md](docs/2_han_muc_tin_dung/2_1_cham_diem_dong_tien/cash_flow_scoring_methodology.md).
+*   **Nghiên cứu Tình huống (Case Studies):**
+    *   **Rủi ro Phá sản & Điều chỉnh Bất động sản của Novaland (NVL):** [bao_cao_phan_tich_nvl.md](docs/1_phan_tich_pha_san/1_2_bao_cao_va_case_study/bao_cao_phan_tich_nvl.md) & [giai_phap_va_du_bao_nvl.md](docs/1_phan_tich_pha_san/1_2_bao_cao_va_case_study/giai_phap_va_du_bao_nvl.md).
+    *   **Dòng tiền & Kế hoạch phân bổ niên kim của Nam Việt Corp (ANV):** [dien_giai_cham_diem_dong_tien_anv.md](docs/2_han_muc_tin_dung/2_1_cham_diem_dong_tien/dien_giai_cham_diem_dong_tien_anv.md) & [dien_giai_han_muc_va_tra_no_anv.md](docs/2_han_muc_tin_dung/2_2_tham_dinh_va_dinh_muc/dien_giai_han_muc_va_tra_no_anv.md).
 
 ---
 
@@ -88,13 +102,13 @@ To maintain readability, detailed mathematical formulations, theoretical justifi
 ## 🛠️ Installation & Setup / Cài đặt & Khởi tạo
 
 ### 1. Prerequisites / Yêu cầu hệ thống
-- **Python 3.10** or higher / phiên bản 3.10 trở lên.
-- **Git** installed / Đã cài đặt Git.
+- **Python 3.10** or higher / Phiên bản **Python 3.10** trở lên.
+- **Git** installed / Đã cài đặt **Git**.
 
 ### 2. Clone the Repository / Tải mã nguồn về máy
 ```bash
-git clone https://github.com/yourusername/mo-hinh-danh-gia-pha-san.git
-cd mo-hinh-danh-gia-pha-san
+git clone https://github.com/wane-bs/Tai_lanh_-_Talent.git
+cd Tai_lanh_-_Talent
 ```
 
 ### 3. Create a Virtual Environment / Khởi tạo môi trường ảo
@@ -119,41 +133,66 @@ pip install -r requirements.txt
 ## 🚀 Execution & Usage Guide / Hướng dẫn Vận hành
 
 ### 1. Launch the Streamlit Dashboard / Chạy ứng dụng Dashboard
-Run the Streamlit application to open the interactive risk analysis dashboard:
+* **English:** Run the Streamlit application to open the interactive risk analysis dashboard:
+* **Tiếng Việt:** Chạy ứng dụng Streamlit để mở giao diện phân tích rủi ro tương tác:
 ```bash
 streamlit run src/app.py
 ```
-*The app will automatically open in your default browser at `http://localhost:8501`.*
+* **English:** *The app will automatically open in your default browser at `http://localhost:8501`.*
+* **Tiếng Việt:** *Ứng dụng sẽ tự động mở trên trình duyệt mặc định tại địa chỉ `http://localhost:8501`.*
 
 ### 2. Run Local Automatic Tests / Chạy bộ kiểm thử tự động
-Ensure code integrity by running the test suite (used by GitHub Actions CI):
+* **English:** Ensure code integrity by running the test suite (used by GitHub Actions CI):
+* **Tiếng Việt:** Đảm bảo tính toàn vẹn của mã nguồn bằng cách chạy bộ kiểm thử (cũng là bộ test được GitHub Actions CI sử dụng):
 ```bash
 python test_fixes.py
 ```
-Expected output: `🎉 TẤT CẢ 7 TESTS PASS — Các sửa đổi hoạt động đúng!`
+* **English:** Expected output: `🎉 ALL 19 TESTS PASS — Modifications work correctly!`
+* **Tiếng Việt:** Kết quả mong đợi: `🎉 TẤT CẢ 19 TESTS PASS — Các sửa đổi hoạt động đúng!`
 
 ### 3. Train Models from Scratch / Huấn luyện lại mô hình học máy
-To retrain XGBoost and Random Forest on Polish & Taiwanese datasets and regenerate files in `models/`:
+* **English:** To retrain XGBoost and Random Forest on Polish & Taiwanese datasets and regenerate binary files in `models/`:
+* **Tiếng Việt:** Để huấn luyện lại XGBoost và Random Forest trên tập dữ liệu Ba Lan & Đài Loan và cập nhật các tệp tin trong thư mục `models/`:
 ```bash
 python run_retrain_full.py
 ```
 
 ### 4. Run Backtesting & Simulations / Chạy Backtest & Giả lập
-- **Run Backtesting Suite:**
-  ```bash
-  python run_backtest.py
-  ```
-- **Run Stress Testing Simulation:**
-  ```bash
-  python run_simulation.py
-  ```
+* **English:**
+  - **Run Backtesting Suite:**
+    ```bash
+    python run_backtest.py
+    ```
+  - **Run Stress Testing Simulation:**
+    ```bash
+    python run_simulation.py
+    ```
+* **Tiếng Việt:**
+  - **Chạy bộ Backtest:**
+    ```bash
+    python run_backtest.py
+    ```
+  - **Chạy Giả lập Stress Test:**
+    ```bash
+    python run_simulation.py
+    ```
 
 ---
 
 ## 🔒 Security & Data Privacy / Bảo mật & Bản quyền Dữ liệu
+
+### [English]
 All corporate data included in the `data/companies/` directory contains public information extracted from official financial reports of listed companies on the Vietnamese stock market (HOSE/HNX). No private, proprietary, or client-sensitive data is stored in this repository.
+
+### [Tiếng Việt]
+Toàn bộ dữ liệu doanh nghiệp trong thư mục `data/companies/` đều là thông tin công khai được trích xuất từ các báo cáo tài chính chính thức của các công ty niêm yết trên thị trường chứng khoán Việt Nam (HOSE/HNX). Không có dữ liệu nội bộ, bảo mật hoặc thông tin nhạy cảm của khách hàng được lưu trữ trong kho lưu trữ này.
 
 ---
 
 ## 📄 License / Bản quyền
+
+### [English]
 This project is open-source and licensed under the terms of the [Apache License 2.0](LICENSE).
+
+### [Tiếng Việt]
+Dự án này là mã nguồn mở và được cấp phép theo các điều khoản của [Apache License 2.0](LICENSE).
